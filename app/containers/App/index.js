@@ -32,10 +32,10 @@ export default function App() {
   return (
     <AppWrapper>
       <Helmet
-        titleTemplate="%s - Every Hour"
-        defaultTitle="Every Hour"
+        titleTemplate="%s - Trivia"
+        defaultTitle="Trivia"
       >
-        <meta name="description" content="Made with love by Marcellin" />
+        <meta name="description" content="Product of Kigaliconsulting" />
       </Helmet>
       <Header />
       <Switch>
