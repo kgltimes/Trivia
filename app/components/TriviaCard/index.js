@@ -18,7 +18,7 @@ import './styles.css';
 class TriviaCard extends React.Component { // eslint-disable-line react/prefer-stateless-function
   render() {
     const { onFetchNextQuestion, onEvaluateUserResponse, timer, trivia } = this.props;
-    return (<div className={trivia.fullscreen ? 'page fullscreen' : 'page'}>
+    return (<div className="page fullscreen">
       {/* <div className="header stats"> */}
       <TriviaStatistic />
       {/* </div> */}
