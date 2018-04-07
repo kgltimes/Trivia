@@ -55,7 +55,7 @@ function* fetchNextQuestion() {
   yield put({ type: TOOGLE_API_CALLING, loading: true });
   yield put(updateStoredResponse(null));
 
-  const requestURL = 'https://opentdb.com/api.php?amount=1&type=boolean&encode=url3986';
+  const requestURL = 'https://opentdb.com/api.php?amount=1&category=26&type=boolean&encode=url3986';
 
   // yield call(delay, 2000);
   try {
