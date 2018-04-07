@@ -32,10 +32,10 @@ class TriviaQuestion extends React.PureComponent { // eslint-disable-line react/
           {response && <p style={{ textAlign: 'center' }}>{`The answer is "${question.answer.toString()}"`}</p>}
         </div>
         <div className="card__footer">
-          <div className="promo-selection" id="promoSelection">
+          {!response && <div className="promo-selection" id="promoSelection">
             <button onClick={() => onEvaluateUserResponse(question, { content: true })} disabled={loading} className="btn">TRUE</button> &nbsp;
             <button onClick={() => onEvaluateUserResponse(question, { content: false })} disabled={loading} className="btn">FALSE</button>
-          </div>
+          </div>}
         </div>
       </div>
     </div>);
