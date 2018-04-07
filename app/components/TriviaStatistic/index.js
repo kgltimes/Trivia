@@ -9,8 +9,8 @@ import React from 'react';
 class TriviaStatistic extends React.Component { // eslint-disable-line react/prefer-stateless-function
   render() {
     return (<div className="header stats">
-      <div className="menu correct">34</div>
-      <div className="menu incorrect">56</div>
+      <div className="menu correct"> &nbsp; </div>
+      <div className="menu incorrect"> &nbsp; </div>
     </div>);
   }
 }
