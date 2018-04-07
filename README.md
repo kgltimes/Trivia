@@ -1,4 +1,4 @@
-# Every Hour
+# Trivia
 Generate any timed update EveryHour!
 
 
